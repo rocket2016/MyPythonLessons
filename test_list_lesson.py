@@ -45,3 +45,29 @@ list_of_int[0] = 6
 print(list_of_int)
 
 # TODO: Попрацювати з створеним списком int за допомогою операторів if|else
+list_of_int = [100, 200, 300, 300, 50, 1]
+#print(max(list_of_int))
+
+min_element = list_of_int[0]
+for element in list_of_int:
+    if element < min_element:
+        min_element = element
+print(min_element)
+
+new_list_of_int = [-1, -5, 0, 12, 0, -4, 100, 50]
+positive_sublist = []
+negative_sublist = []
+zero_sublist = []
+for element in new_list_of_int:
+    if element > 0:
+        positive_sublist.append(element)
+    elif element < 0:
+        negative_sublist.append(element)
+    else:
+        zero_sublist.append(element)
+print(positive_sublist)
+print(negative_sublist)
+print(zero_sublist)
+
+
+# TODO: Find max of list of int
