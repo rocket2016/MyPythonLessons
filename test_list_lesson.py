@@ -43,3 +43,5 @@ print (list_of_int)
 
 list_of_int[0] = 6
 print(list_of_int)
+
+# TODO: Попрацювати з створеним списком int за допомогою операторів if|else
