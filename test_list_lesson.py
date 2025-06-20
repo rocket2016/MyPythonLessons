@@ -75,3 +75,39 @@ print(zero_sublist)
 # TODO: Create list of int with even, odd and zero numbers. Find count for each category (even, odd, zero)
 # TODO (Hometask)
 # TODO hint: if num % 2 == 0 then num is even, else num is odd
+
+# TODO: List slicing
+# list[start:stop:step]
+
+list_to_slice = [-1, -5, 0, 12, 0, -4, 100, 50]
+sliced_list = list_to_slice[:4]
+print(sliced_list)
+
+list_to_slice = [-1, -5, 0, 12, 0, -4, 100, 50]
+sliced_list = list_to_slice[:6:2]
+print(sliced_list)
+
+list_to_slice = [-1, -5, 0, 12, 0, -4, 100, 50]
+sliced_list = list_to_slice[1:6:3]
+print(sliced_list)
+
+list_to_slice = [-1, -5, 0, 12, 0, -4, 100, 50]
+sliced_list = list_to_slice[::2]
+print(sliced_list)
+
+list_to_slice = [-1, -5, 0, 12, 0, -4, 100, 50]
+sliced_list = list_to_slice[1::2]
+print(sliced_list)
+
+list_to_slice = [-1, -5, 0, 12, 0, -4, 100, 50]
+#list_to_slice.reverse()
+#print(list_to_slice)
+sliced_list = list_to_slice[::-1]
+print(sliced_list)
+
+list_to_slice = [-1, -5, 0, 12, 0, -4, 100, 50]
+sliced_list = list_to_slice[::len(list_to_slice)-1]
+print(sliced_list)
+
+list_to_slice = [-1, -5, 0, 12, 0, -4, 100, 50]
+print(type(list_to_slice))
