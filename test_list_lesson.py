@@ -29,7 +29,7 @@ test_string = 'xyz 123 kyiv'
 for char in test_string:
     print('char = ', char)
 
-# TODO: Попрацювати за допомогою методів списку з створеним списком int
+# TODO: Попрацювати за допомогою методів списку з створеним списком int (HomeTask)
 list_of_int = [100, 200, 300, 300, 50, 1]
 
 list_of_int.append(5)
@@ -70,4 +70,8 @@ print(negative_sublist)
 print(zero_sublist)
 
 
-# TODO: Find max of list of int
+# TODO: Find max of list of int (HomeTask)
+
+# TODO: Create list of int with even, odd and zero numbers. Find count for each category (even, odd, zero)
+# TODO (Hometask)
+# TODO hint: if num % 2 == 0 then num is even, else num is odd
