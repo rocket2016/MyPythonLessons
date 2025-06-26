@@ -71,6 +71,13 @@ print(zero_sublist)
 
 
 # TODO: Find max of list of int (HomeTask)
+list_HW1 = [-1, -5, 0, 12, 0, -4, 100, 50]
+
+max_element = list_HW1[0]
+for element in list_HW1:
+    if element > max_element:
+        max_element = element
+print(max_element)
 
 # TODO: Create list of int with even, odd and zero numbers. Find count for each category (even, odd, zero)
 # TODO (Hometask)
