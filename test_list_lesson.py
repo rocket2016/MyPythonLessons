@@ -82,6 +82,22 @@ print(max_element)
 # TODO: Create list of int with even, odd and zero numbers. Find count for each category (even, odd, zero)
 # TODO (Hometask)
 # TODO hint: if num % 2 == 0 then num is even, else num is odd
+list_HW1 = [-1, -5, 0, 12, 0, -4, 100, 50]
+even_counter = 0
+odd_counter = 0
+zero_counter = 0
+
+for element in list_HW1:
+    if element == 0:
+       zero_counter = zero_counter + 1
+    elif element % 2 != 0:
+        odd_counter = odd_counter + 1
+    else:
+        even_counter = even_counter + 1
+print(zero_counter)
+print(odd_counter)
+print(even_counter)
+
 
 # TODO: List slicing
 # list[start:stop:step]
